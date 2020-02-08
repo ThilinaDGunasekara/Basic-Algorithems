@@ -5,15 +5,11 @@ import java.util.Scanner;
 public class MostFrequentCharacter {
     static final int ASCII_Size = 256;
     public static void main(String[] args) {
-
-
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Text: ");
         String text = input.next();
 
         System.out.println(mostFrequentCharacter(text));
-
-
     }
 
     static char mostFrequentCharacter(String text){
